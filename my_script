@@ -1,5 +1,8 @@
 #!/bin/bash
 # nxtOSEK script
+#Test commit git
+#1
+#2
 
 changeDirectory()
 {
