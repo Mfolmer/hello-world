@@ -2,13 +2,15 @@
 # nxtOSEK script
 #Test commit git
 
-#1
+##git status
 
-#2
+#1 - git add <filename>
 
-#3
+#2 - git commit -m <filename>
 
-#4
+#3 - git push origin <branch>
+
+
 
 
 changeDirectory()
