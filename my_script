@@ -1,0 +1,32 @@
+#!/bin/bash
+# nxtOSEK script
+
+changeDirectory()
+{
+	if cd /home/martin/nxtOSEK/NeXTTool; then
+		echo "Changed directory to /home/martin/nxtOSEK/NeXTTool/"	
+	else
+		echo "Could not change directory! Aborting." 1>&2
+	exit 1
+fi
+}
+
+downloadFileToNxt()
+{
+	
+	if ls *.rxe; then
+		echo 1234 | sudo -S ./NeXTTool 
+	else 
+		echo "No .rxe file found" 1>&2
+	exit 1
+fi
+}
+
+
+
+
+changeDirectory
+downloadFileToNxt
+
+
+echo "Second echo"
